@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: palegoldenrod;
+}
+
+.container-fluid {
+    background-color: palegoldenrod;
+}
+
+.capture-homepage {
+    background-image: url(../images/secondlaptop.jpg);
+    background-size: cover;
+    height: 500px;
+    border: 1px solid white;
+    color: orangered;
+    text-align: right;
+    padding: 20px;
+}
+
+.plan-course {
+    background-color: rgb(243, 90, 34);
+    height: 500px;
+}
+
+select {
+    background-color: rgb(207, 70, 20);
+    color: white;
+    height: 50px;
+    width: 300px;
+}

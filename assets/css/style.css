@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: palegoldenrod;
+}
+
+.container-fluid {
+    background-color: palegoldenrod;
+}
+
+.first-contant {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.search {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.line {
+    background-color: green;
+    width: 50px;
+    height: 3px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.search-background {
+    background-color: rgb(201, 196, 147);
+}
+
+.search-background .header {
+    background-color: rgb(167, 164, 141);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+.header i {
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 17px;
+}
+
+.group-input {
+    height: 51px;
+}
+
+.search-area {
+    text-align: center;
+}
+
+.search-btn {
+    height: 40px;
+    border-radius: 8px;
+}
+
+select {
+    height: 50px;
+    width: 300px;
+}
+
+.course {
+    margin-top: 60px;
+}
+
+.course h2 {
+    text-align: center;
+}
+
+.popular-course img {
+    height: 350px;
+}
+
+.feature {
+    margin-top: 60px;
+}
+
+.feature h2 {
+    text-align: center;
+}
+
+.feature-writeup {
+    text-align: center;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.icon i {
+    padding: 33px;
+    color: white;
+    font-size: 35px;
+}  
+
+.teacher {
+    margin-top: 60px;
+}
+
+.teacher h2 {
+    text-align: center;
+}
+
+.process {
+    margin-top: 60px;
+}
+
+.process h2 {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(219, 215, 163);
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .first-contant {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+    }
+    
+}
