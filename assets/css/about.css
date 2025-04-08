@@ -32,3 +32,49 @@ select {
     height: 50px;
     width: 300px;
 }
+
+.search-button {
+    float: right;
+}
+
+@media screen and (max-width: 320px) {
+    select {
+        width: 230px;
+    }
+}
+
+@media (min-width: 322px) and (max-width:405px) {
+    select {
+        width: 278px;
+    }
+}
+
+@media (min-width: 406px) and (max-width: 450px) {
+    select {
+        width: 355px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 520px) {
+    select {
+        width: 413px;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 630px) {
+    select {
+        width: 480px;
+    }
+}
+
+@media (min-width: 631px) and (max-width: 767px) {
+    select {
+        width: 510px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    select {
+        width: 200px;
+    }
+}
