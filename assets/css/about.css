@@ -11,6 +11,17 @@ nav {
   background-color: palegoldenrod;
 }
 
+.header {
+  background-color: orangered;
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .capture-homepage {
   background-image: url(../images/secondlaptop.jpg);
   background-size: cover;
@@ -69,6 +80,49 @@ select {
 
 .icon {
   margin-right: 20px;
+}
+
+.who-we-are {
+  background-image: url(../images/keyboard-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.range {
+  background-color: black;
+  height: 20px;
+}
+
+.range .color1 {
+  background-color: lawngreen;
+  height: 20px;
+  width: 50%;
+}
+
+.range .color2 {
+  background-color: darkmagenta;
+  height: 20px;
+  width: 75%;
+}
+
+.range .color3 {
+  background-color: orangered;
+  height: 20px;
+  width: 60%;
+}
+
+.range .color4 {
+  background-color: rgb(161, 0, 0);
+  height: 20px;
+  width: 45%;
+}
+
+.range .color5 {
+  background-color: gray;
+  height: 20px;
+  width: 35%;
 }
 
 .footer {
