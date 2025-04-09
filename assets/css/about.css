@@ -1,114 +1,76 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
-    background-color: palegoldenrod;
+  background-color: palegoldenrod;
 }
 
 .container-fluid {
-    background-color: palegoldenrod;
+  background-color: palegoldenrod;
 }
 
 .capture-homepage {
-    background-image: url(../images/secondlaptop.jpg);
-    background-size: cover;
-    height: 500px;
-    border: 1px solid white;
-    color: orangered;
-    text-align: center;
-    padding: 150px;
+  background-image: url(../images/secondlaptop.jpg);
+  background-size: cover;
+  height: 500px;
+  border: 1px solid white;
+  color: orangered;
+  text-align: center;
+  padding: 150px;
 }
 
 .plan-course {
-    background-color: rgb(243, 90, 34);
-    height: 500px;
+  background-color: rgb(243, 90, 34);
+  height: 500px;
 }
 
 select {
-    background-color: rgb(207, 70, 20);
-    color: white;
-    height: 50px;
-    width: 300px;
+  background-color: rgb(207, 70, 20);
+  color: white;
+  height: 50px;
+  width: 300px;
 }
 
 .search-button {
-    float: right;
+  float: right;
 }
 
 .line {
-    background-color: green;
-    width: 40px;
-    height: 3px;
-    border-radius: 8px;
+  background-color: green;
+  width: 40px;
+  height: 3px;
+  border-radius: 8px;
 }
 
 .orange-line {
-    background-color: orangered;
-    width: 50px;
-    height: 3px;
-    border-radius: 8px;
+  background-color: orangered;
+  width: 50px;
+  height: 3px;
+  border-radius: 8px;
+}
+
+.form-select {
+  background-color: rgb(167, 78, 46);
 }
 
 .white-line {
-    background-color: whitesmoke;
-    width: 258px;
-    height: 3px;
-    border-radius: 8px;
+  background-color: whitesmoke;
+  width: 258px;
+  height: 3px;
+  border-radius: 8px;
 }
 
 .info {
-    height: 30px;
+  height: 30px;
 }
 
 .icon {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .gallery img {
-    width: 300px;
-    aspect-ratio: 1;
-}
-
-@media screen and (max-width: 320px) {
-    select {
-        width: 230px;
-    }
-}
-
-@media (min-width: 322px) and (max-width:405px) {
-    select {
-        width: 278px;
-    }
-}
-
-@media (min-width: 406px) and (max-width: 450px) {
-    select {
-        width: 355px;
-    }
-}
-
-@media (min-width: 451px) and (max-width: 520px) {
-    select {
-        width: 413px;
-    }
-}
-
-@media (min-width: 521px) and (max-width: 630px) {
-    select {
-        width: 480px;
-    }
-}
-
-@media (min-width: 631px) and (max-width: 767px) {
-    select {
-        width: 510px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    select {
-        width: 200px;
-    }
+  width: 300px;
+  aspect-ratio: 1;
 }
