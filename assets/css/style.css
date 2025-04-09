@@ -84,8 +84,28 @@ select {
     text-align: center;
 }
 
+.popular-course {
+    background-color: rgb(219, 215, 163); 
+    text-align: center;
+}
+
+.popular-course:hover {
+    background-color: green;
+    color: white;
+}
+
+.popular-course i:hover {
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
 .popular-course img {
     height: 350px;
+    padding: 10px;
 }
 
 .feature {
