@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: palegoldenrod;
+}
+
+.container-fluid {
+    background-color: palegoldenrod;
+}
+
+.header {
+    background-color: orangered;
+    color: white;
+    height: 120px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.instructor-profile {
+    background-color: transparent; 
+    text-align: center;
+}
+
+.instructor-profile:hover {
+    background-color: green;
+    color: white;
+}
+
+.instructor-profile i:hover {
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.instructor-profile img {
+    height: 400px;
+    padding: 10px;
+}
+
+.instructor-profession ul {
+    list-style: circle;
+}
+
+.instructor-classes table {
+    width: 300px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(219, 215, 163);
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
