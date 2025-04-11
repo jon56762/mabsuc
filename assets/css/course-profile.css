@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: palegoldenrod;
+}
+
+.container-fluid {
+    background-color: palegoldenrod;
+}
+
+.header {
+    background-color: rgb(216, 120, 31);
+    color: white;
+    height: 150px;
+    padding: 50px;
+}
+
+.course-detail {
+    display: flex;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.type {
+    margin-right: 10px;
+}
+
+.card {
+    width: 300px;
+}
+
+.column2 {
+    padding: 50px;
+}
+
+.instructor-course {
+    background-color: rgb(42, 78, 13);
+    color: white;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+
+}
+
+.instructor-course .amount {
+    background-color: rgb(216, 120, 31);
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login-to-take-course-button {
+    background-color: rgb(216, 120, 31);
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+    .card {
+        border: none;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .column2 {
+        padding: 1px;
+    }
+
+    .instructor-course {
+        background-color: palegoldenrod;
+        color: black;
+        border: none;
+    }
+
+    .profile {
+        display: block;
+    }
+}

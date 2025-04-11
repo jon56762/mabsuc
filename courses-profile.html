@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+     <link rel="stylesheet" href="assets/css/boostrap/bootstrap.css">
+    <!-- Font awesome  -->
+     <link rel="stylesheet" href="assets/css/font-awasome/css/all.css">
+    <!-- Css  -->
+     <link rel="stylesheet" href="assets/css/course-profile.css">
+    <title>Web Development</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Mabsuc</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html" aria-current="page">
+                  <i class="fa fa-home" aria-hidden="true"></i>HOME
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">COURSES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">CATEGORIES</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Action 1</a>
+                  <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+    
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  <i class="fa fa-user-plus" aria-hidden="true"></i>
+                  LOGIN
+                </a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="">REGISTER</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-5">
+        <div class="header">
+            <h2>Web Development</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 colum1">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/web-laptop.jpg" alt="Title" />
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text">
+                            <div class="course-detail">
+                                <div class="icon"><i class="fa fa-square" aria-hidden="true"></i></div>
+                                <div class="type">Categories :</div>
+                                <div class="topic"><b>Backend</b></div>
+                            </div>
+                            <div class="course-detail">
+                                <div class="icon"><i class="fas fa-square    "></i></div>
+                                <div class="type">Lessons :</div>
+                                <div class="topic"><b>3</b></div>
+                            </div>
+                            <div class="course-detail">
+                                <div class="icon"><i class="fas fa-square    "></i></div>
+                                <div class="type">Quizzes :</div>
+                                <div class="topic"><b>1</b></div>
+                            </div>
+                            <div class="course-detail">
+                                <div class="icon"><i class="fas fa-square    "></i></div>
+                                <div class="type">Duration :</div>
+                                <div class="topic"><b>3 months 4hours</b></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="social-share">
+                    <h4><strong>SOCIAL SHARE</strong></h4>
+                    <div class="social-icon p-2">
+                        <i class="fab fa-facebook bg-light text-primary fa-3x"></i>
+                        <i class="fab fa-linkedin bg-light text-primary fa-3x"></i>
+                        <i class="fab fa-youtube bg-light text-danger fa-3x"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 column2">
+                <div class="instructor-course">
+                    <h4>Web Development</h4>
+                    <img src="assets/images/teachermale.jpg" width="100px" height="100px" alt="">
+                    <div class="profile">
+                      <!-- <img src="assets/images/teachermale.jpg" width="100px" height="100px" alt=""> -->
+                      <div class="rate">
+                         JIM MORRISON  <i class="fas fa-square    "></i> 7 Curriculum
+                      </div>
+                      <div class="star d-flex">
+                        <i class="fas fa-star text-warning    "></i>
+                        <i class="fas fa-star text-warning    "></i>
+                        <i class="fas fa-star text-warning    "></i>
+                        <i class="fas fa-star text-warning    "></i>
+                        <i class="fas fa-star text-warning    "></i>
+                      </div>
+                      (2 Reviews)
+                    </div>
+                    <div class="amount">$760</div>
+                    <button class="login-to-take-course-button">Login To Take Course</button>
+                </div>
+
+                <div class="select">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
