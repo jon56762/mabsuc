@@ -73,6 +73,26 @@ nav {
     font-weight: 600;
     margin-top: 20px;
 }
+
+.page-link {
+    background-color: palegoldenrod;
+    color: black;
+    border: none;
+}
+
+.footer {
+    background-color: rgb(219, 215, 163);
+    padding: 20px;
+  }
+  
+  .copyright {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
 @media screen and (max-width: 767px) {
     .card {
         border: none;
