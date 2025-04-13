@@ -8,6 +8,11 @@ nav {
     background-color: palegoldenrod;
 }
 
+a {
+    text-decoration: none;
+    color: orange;
+}
+
 .split-container {
     display: flex;
     min-height: 100vh;
