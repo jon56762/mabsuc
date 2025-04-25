@@ -80,19 +80,40 @@ nav {
     border: none;
 }
 
+.nav-pills .nav-link {
+    background-color: transparent;
+    color: black;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: green;
+    color: black;
+}
+
+.nav-pills .nav-link .active {
+    background-color: green;
+    color: black; 
+}
+
+img {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
 .footer {
     background-color: rgb(219, 215, 163);
     padding: 20px;
-  }
-  
-  .copyright {
+}
+.copyright {
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-  }
+}
+
+
 @media screen and (max-width: 767px) {
     .card {
         border: none;

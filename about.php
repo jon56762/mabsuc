@@ -12,62 +12,9 @@
     <title>About Us</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Mabsuc</a>
-        <button
-          class="navbar-toggler d-lg-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavId"
-          aria-controls="collapsibleNavId"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html" aria-current="page">
-                <i class="fa fa-home" aria-hidden="true"></i>HOME
-                <span class="visually-hidden">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">COURSES</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="dropdownId"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >CATEGORIES</a
-              >
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT US</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">
-                <i class="fa fa-user-plus" aria-hidden="true"></i>
-                LOGIN
-              </a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="resgistration.html">REGISTER</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- Navbar -->
+
+  <?php include "navbar.php" ?>
 
     <div class="container-fluid mt-5">
       <div class="header mt-5">
@@ -348,68 +295,8 @@
         </div>
       
 
-      <div class="footer mt-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
-              <h4>About Us</h4>
-              <p>Mabsuc exceeded all <br> expectation!!!</p>
-              <button class="btn btn-outline-success"><b>START LEARNING NOW</b></button>
-            </div>
-  
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
-              <h4>Popular Courses</h4>
-              <h5>Web Development <br> <b class="text-success">Free</b></h5>
-              <hr>
-              <h5>Web Design <br> <b class="text-success">Free</b></h5>
-              <hr>
-              <h5>Graphic Design <br> <b class="text-success">Free</b></h5>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
-              <h4>Quick Links</h4>
-              <ul>
-                <li>All Courses</li>
-                <hr>
-                <li>Categories</li>
-                <hr>
-                <li>Privacy Policy</li>
-                <hr>
-                <li>Terms of Use</li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
-              <h4>Contact Us</h4>
-              <i class="fa fa-location-arrow text-success" aria-hidden="true"></i>
-              Mabsuc. <br> Agbor Delta State, br Nigeria.
-              <hr>
-              <i class="fa fa-phone text-success" aria-hidden="true"></i> +234 911 490 6106
-              <hr>
-              <i class="fa fa-envelope text-success" aria-hidden="true"></i> successjonathan567@gmail.com
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="container-fluid copyright bg-success">
-      <div class="container">
-        <div class="">
-          <div class="row">
-            <div class="col-12">
-              &copy; Copyright 2025 Mabsuc | E-learnng
-            </div>
-            <div class="col-12">
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-youtube"></i>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-github"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+      <!-- Footer -->
+       <?php include "footer.php" ?>
 
     <!-- Boostrap js -->
     <script src="assets/js/bootstrap.bundle.js"></script>
